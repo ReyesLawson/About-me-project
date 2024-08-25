@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(112, 122, 128) !important;
+}
+
+p {
+    color: rgb(15, 15, 34);
+}
+
+button {
+    color: #f8fcf8;
+}
+
+button {
+    background-color: rgb(14, 14, 66);
+}
+
+h1 {
+    /* color: hwb(hue rgb(108, 148, 185) black) ;  */
+    color:rgb(232, 232, 236) !important;
+}
