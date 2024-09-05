@@ -204,7 +204,7 @@ p{
 }
 ul,ol{
     padding-left: 25px;   
-    background-color:rgb(23, 43, 94) ;; 
+    
     color: white;
 }
 ul{
@@ -224,6 +224,8 @@ form{
     text-align: center;
 }
 
-
+.cinfo{
+    background-color:rgb(23, 43, 94) ; 
+}
 
 
