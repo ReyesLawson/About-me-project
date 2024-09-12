@@ -9,7 +9,7 @@ html{
 }
 
 body {
-    background-color: white;
+    
     display: flex;
     flex-direction: column;
     
@@ -79,19 +79,12 @@ header{
     margin: 0%;
    background-color: aqua; 
 }
-.bgcolorcontact{
-    
-    color: aqua;
-    
-}
+
 .contactheader{
     align-items: center;
     text-align: center;
 }
-input,textarea{
-    
 
-}
 .shield{
     margin: 50px;
     background-color: rgba(red, green, blue, .5);
@@ -131,20 +124,6 @@ h1{
 }
 
 
-.flex-container{
-    display: flex;
-    
-}
-.flex-item{
-    width: 50%;
-}
-
-.custom-container{
-    display: inline-block;
-    background-color: lightblue;
-    width: 40vw;
-}
-
 h2{
     font-family: "gloria hallelujah";
     text-align: center;
@@ -161,6 +140,12 @@ h3{
     text-decoration: underline;
     font-size: 1.25rem;
     color:rgb(23, 43, 94) ;
+    background-image: url(/images/background.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+    margin: 0%;
 
 }
 .multi-column-container{
@@ -227,5 +212,40 @@ form{
 .cinfo{
     background-color:rgb(23, 43, 94) ; 
 }
+    
+.picarea{
+    
+    background-image: url(/images/background.jpg) ;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+    margin: 0%;
+    
+}
+
+.my-first-carousel{
+   position: relative;
+   width: 500px;
+   height: 700px;
+   margin: 0 auto;
+   object-fit: cover;
+   
+}
+
+.carousel-inner{
+   width: 100%;
+   height: 700px;
+   margin: 0 auto;
+   position:absolute;
+   object-fit: cover;
+   
+}
 
 
+.carousel-image{
+    
+    width: 500px
+    height: 700px;
+    
+}
